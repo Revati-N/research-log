@@ -29,7 +29,7 @@ The proposed CNN achieves significantly higher accuracy on handwritten digit cla
 
 # Strengths
 
-- Introduced MNIST as a long-lasting benchmark dataset
+- Introduced MNIST as a long-lasting benchmark dataset.
 - Clear demonstration of CNN effectiveness for classification
 - End-to-end learning without handcrafted features
 
