@@ -1,0 +1,20 @@
+[
+  {
+    "filename": "mnist-intro-1998.md",
+    "title": "Gradient-Based Learning Applied to Document Recognition",
+    "authors": "Yann LeCun, Léon Bottou, Yoshua Bengio, Patrick Haffner",
+    "year": 1998,
+    "field": "Machine Learning",
+    "method": "Classification (Convolutional Neural Networks)",
+    "arxiv": "http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf",
+    "tags": [
+      "classification",
+      "mnist",
+      "cnn",
+      "supervised-learning",
+      "computer-vision"
+    ],
+    "content": "# Summary\n\nThis paper introduces the MNIST handwritten digit dataset and demonstrates how gradient-based learning with convolutional neural networks can effectively solve image classification tasks. It established a standard benchmark for evaluating classification algorithms.\n\n# Key Insights\n\n- Convolutional Neural Networks can automatically learn hierarchical features from raw images.\n- Gradient-based optimization enables end-to-end training without manual feature engineering.\n- MNIST provides ",
+    "date_reviewed": "2025-12-17"
+  }
+]
