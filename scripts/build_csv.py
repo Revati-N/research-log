@@ -5,10 +5,7 @@ from pathlib import Path
 
 def build_csv():
     papers_dir = Path("papers")
-    output_file = Path("docs/papers.csv")
-    
-    # Ensure output directory exists
-    output_file.parent.mkdir(parents=True, exist_ok=True)
+    output_file = Path("papers.csv")
     
     papers_data = []
     

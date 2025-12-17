@@ -4,11 +4,8 @@ from pathlib import Path
 
 def build_search_index():
     papers_dir = Path("papers")
-    output_file = Path("docs/search-data.json")
-    
-    # Ensure output directory exists
-    output_file.parent.mkdir(parents=True, exist_ok=True)
-    
+    output_file = Path("search-data.json")
+        
     search_data = []
     
     # Read all markdown files
