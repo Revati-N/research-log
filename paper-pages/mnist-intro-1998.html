@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Gradient-Based Learning Applied to Document Recognition</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 { color: #333; }
+        .meta { color: #666; margin-bottom: 30px; }
+        a { color: #667eea; }
+    </style>
+</head>
+<body>
+    <h1>Gradient-Based Learning Applied to Document Recognition</h1>
+    <div class="meta">
+        <strong>Yann LeCun, Léon Bottou, Yoshua Bengio, Patrick Haffner</strong> • 1998 • Machine Learning<br>
+        <a href="http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf" target="_blank">📄 arXiv PDF</a>
+    </div>
+    <h1>Summary</h1>
+<p>This paper introduces the MNIST handwritten digit dataset and demonstrates how gradient-based learning with convolutional neural networks can effectively solve image classification tasks. It established a standard benchmark for evaluating classification algorithms.</p>
+<h1>Key Insights</h1>
+<ul>
+<li>Convolutional Neural Networks can automatically learn hierarchical features from raw images.</li>
+<li>Gradient-based optimization enables end-to-end training without manual feature engineering.</li>
+<li>MNIST provides a clean, standardized benchmark for comparing classification models.</li>
+</ul>
+<h1>Methodology</h1>
+<p>The authors use a convolutional neural network architecture consisting of convolutional layers, subsampling (pooling), and fully connected layers. The network is trained using backpropagation and gradient descent, with a softmax output layer for digit classification.</p>
+<h1>Results</h1>
+<p>The proposed CNN achieves significantly higher accuracy on handwritten digit classification compared to traditional methods. The model demonstrates strong generalization across the MNIST test set.</p>
+<h1>Strengths</h1>
+<ul>
+<li>Introduced MNIST as a long-lasting benchmark dataset.</li>
+<li>Clear demonstration of CNN effectiveness for classification</li>
+<li>End-to-end learning without handcrafted features</li>
+</ul>
+<h1>Limitations</h1>
+<ul>
+<li>Limited to simple grayscale images</li>
+<li>Small image resolution (28×28) compared to real-world tasks</li>
+<li>Does not address scalability to very deep architectures</li>
+</ul>
+<h1>Personal Notes</h1>
+<p>This paper is ideal as a first classification reference. It clearly shows why neural networks outperform traditional methods when sufficient data is available. MNIST remains useful for rapid prototyping and sanity-checking new classification models.</p>
+<h1>Code &amp; Resources</h1>
+<ul>
+<li><a href="http://yann.lecun.com/exdb/mnist/">Official MNIST Dataset</a></li>
+<li><a href="https://github.com/pytorch/examples/tree/main/mnist">PyTorch MNIST Example</a></li>
+</ul>
+    <br><br>
+    <a href="../">← Back to Archive</a>
+</body>
+</html>
