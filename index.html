@@ -239,7 +239,7 @@
                         </div>
                         <div>
                             ${paper.arxiv ? `<a href="${paper.arxiv}" class="paper-link" target="_blank">📄 arXiv PDF</a>` : ''}
-                            <a href="/research-log/papers/${paper.filename}" class="paper-link" target="_blank">📝 My Notes</a>
+                            <a href="research-log/paper-pages/${paper.filename.replace('.md', '.html')}" class="paper-link" target="_blank">📝 My Notes</a>
                         </div>
                         ${tags.length > 0 ? `<div class="paper-tags">${tagsHtml}</div>` : ''}
                     </div>
