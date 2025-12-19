@@ -7,6 +7,7 @@ method: "Classification (Convolutional Neural Networks)"
 arxiv: "http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf"
 tags: ["classification", "mnist", "cnn", "supervised-learning", "computer-vision"]
 date_reviewed: "2025-12-17"
+summary: "This paper introduces the MNIST handwritten digit dataset and demonstrates how gradient-based learning with convolutional neural networks can effectively solve image classification tasks. It established a standard benchmark for evaluating classification algorithms."
 ---
 
 # Summary

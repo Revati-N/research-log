@@ -28,6 +28,7 @@ def build_csv():
                 'arxiv': post.get('arxiv', ''),
                 'tags': ', '.join(post.get('tags', [])),
                 'date_reviewed': post.get('date_reviewed', ''),
+                'summary': post.get('summary', ''),
             }
             
             papers_data.append(metadata)
@@ -38,7 +39,7 @@ def build_csv():
     # Write to CSV
     if papers_data:
         fieldnames = ['filename', 'title', 'authors', 'year', 'field', 
-                     'method', 'arxiv', 'tags', 'date_reviewed']
+                     'method', 'arxiv', 'tags', 'date_reviewed','summary']
         
         with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)

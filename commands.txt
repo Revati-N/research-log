@@ -1,0 +1,6 @@
+# Commands to run after creating a research log: 
+
+
+python scripts/build_csv.py
+python scripts/build_html.py
+python scripts/build_search.py

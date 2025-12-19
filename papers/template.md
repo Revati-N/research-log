@@ -7,6 +7,7 @@ method: "Transformer"
 arxiv: "https://arxiv.org/pdf/1706.03762.pdf"
 tags: ["attention", "transformer", "NLP", "deep-learning"]
 date_reviewed: "2025-12-17"
+summary: "Brief 2-3 sentence overview of the paper's main contribution."
 ---
 
 # Summary
