@@ -18,7 +18,7 @@ A simple, fully static system to track, review, and search research papers.
   Search by title, authors, field, method, tags, and note content directly in the browser.
 
 - 📊 **CSV export**  
-  All paper metadata is collected into `docs/papers.csv`, ready for Excel/Google Sheets.
+  All paper metadata is collected into `papers.csv`, ready for Excel/Google Sheets.
 
 - 🌐 **Static hosting**  
   Entire system is static and runs on GitHub Pages. No servers or databases.
@@ -56,8 +56,8 @@ python scripts/build_search.py
 
 This updates:
 
-- `docs/papers.csv`
-- `docs/search-data.json`
+- `papers.csv`
+- `search-data.json`
 
 5. **Commit and push**
 ```
@@ -86,7 +86,7 @@ After 1–2 minutes, your new paper appears on your site.
  - Title, authors, year, field, method.
  - Link to arXiv PDF.
  - Link to your Markdown notes in `papers/`.
-- Also exposes a **Download CSV** button pointing to `docs/papers.csv`.
+- Also exposes a **Download CSV** button pointing to `/papers.csv`.
 
 ---
 

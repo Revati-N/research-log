@@ -32,6 +32,6 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add docs/papers.csv docs/search-data.json
+        git add papers.csv search-data.json
         git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update CSV and search index"
         git push
