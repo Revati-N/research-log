@@ -51,6 +51,7 @@ From the project root:
 
 ```
 python scripts/build_csv.py
+python scripts/build_html.py
 python scripts/build_search.py
 ```
 
