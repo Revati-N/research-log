@@ -16,5 +16,26 @@
     ],
     "content": "# Summary\n\nThis paper introduces the MNIST handwritten digit dataset and demonstrates how gradient-based learning with convolutional neural networks can effectively solve image classification tasks. It established a standard benchmark for evaluating classification algorithms.\n\n# Key Insights\n\n- Convolutional Neural Networks can automatically learn hierarchical features from raw images.\n- Gradient-based optimization enables end-to-end training without manual feature engineering.\n- MNIST provides ",
     "date_reviewed": "2025-12-17"
+  },
+  {
+    "filename": "quiet-quitting-trend.md",
+    "title": "Why millennials and gen Z are silently leaving their jobs? Unraveling the 'quiet quitting' trend",
+    "authors": "Nuryanti Taufik, Agi Rosyadi, Muhammad Aliyuddin",
+    "year": 2024,
+    "field": "Organizational Behavior / Human Resource Management",
+    "method": "Survey + Structural Equation Modelling (SEM) with AMOS",
+    "arxiv": "",
+    "tags": [
+      "quiet quitting",
+      "empowering leadership",
+      "job satisfaction",
+      "organizational culture",
+      "work overload",
+      "millennials",
+      "gen Z",
+      "Indonesia"
+    ],
+    "content": "# Summary\n\nThis paper investigates the drivers of \"quiet quitting\" — working strictly within assigned tasks with no extra effort or emotional investment — among millennial and Gen Z workers in Indonesia. Using self-determination theory as a lens and SEM on 600 survey responses, the authors test four hypotheses linking empowering leadership, organizational culture, and work overload to job satisfaction, and job satisfaction to quiet quitting. All four hypotheses are supported: higher job satisfac",
+    "date_reviewed": "2026-03-30"
   }
 ]
